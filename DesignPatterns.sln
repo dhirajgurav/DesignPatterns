@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A - Creational", "A - Creational", "{00BB965F-2812-48AC-88EF-9910A8CFFA6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Singleton", "01 - Singleton", "{DE69E651-3686-484C-8588-5AB699B2CF01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{C63F566F-0F2C-439C-BA4D-7BB6F9B1DD07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Facotry Method", "02 - Facotry Method", "{1069A9E9-0EA6-4B3C-A4A4-8B3B78DA8042}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{D0DE790E-9C8B-4115-B3EB-EA4F1809A391}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Abstract Factory", "03 - Abstract Factory", "{6474E7C4-17F5-46FA-958E-170434F5F9AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{94AD2228-9194-4D15-B596-348034104EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Builder", "04 - Builder", "{573B0CDF-9073-4229-9287-06C64DD3716B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{F968053C-5DE9-4F1F-A7D8-EFB2C6F7B5E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C63F566F-0F2C-439C-BA4D-7BB6F9B1DD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63F566F-0F2C-439C-BA4D-7BB6F9B1DD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63F566F-0F2C-439C-BA4D-7BB6F9B1DD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63F566F-0F2C-439C-BA4D-7BB6F9B1DD07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DE790E-9C8B-4115-B3EB-EA4F1809A391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DE790E-9C8B-4115-B3EB-EA4F1809A391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DE790E-9C8B-4115-B3EB-EA4F1809A391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DE790E-9C8B-4115-B3EB-EA4F1809A391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AD2228-9194-4D15-B596-348034104EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AD2228-9194-4D15-B596-348034104EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AD2228-9194-4D15-B596-348034104EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AD2228-9194-4D15-B596-348034104EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F968053C-5DE9-4F1F-A7D8-EFB2C6F7B5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F968053C-5DE9-4F1F-A7D8-EFB2C6F7B5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F968053C-5DE9-4F1F-A7D8-EFB2C6F7B5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F968053C-5DE9-4F1F-A7D8-EFB2C6F7B5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE69E651-3686-484C-8588-5AB699B2CF01} = {00BB965F-2812-48AC-88EF-9910A8CFFA6E}
+		{C63F566F-0F2C-439C-BA4D-7BB6F9B1DD07} = {DE69E651-3686-484C-8588-5AB699B2CF01}
+		{1069A9E9-0EA6-4B3C-A4A4-8B3B78DA8042} = {00BB965F-2812-48AC-88EF-9910A8CFFA6E}
+		{D0DE790E-9C8B-4115-B3EB-EA4F1809A391} = {1069A9E9-0EA6-4B3C-A4A4-8B3B78DA8042}
+		{6474E7C4-17F5-46FA-958E-170434F5F9AA} = {00BB965F-2812-48AC-88EF-9910A8CFFA6E}
+		{94AD2228-9194-4D15-B596-348034104EC3} = {6474E7C4-17F5-46FA-958E-170434F5F9AA}
+		{573B0CDF-9073-4229-9287-06C64DD3716B} = {00BB965F-2812-48AC-88EF-9910A8CFFA6E}
+		{F968053C-5DE9-4F1F-A7D8-EFB2C6F7B5E0} = {573B0CDF-9073-4229-9287-06C64DD3716B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E315D03-CE17-4CA4-AE72-9DE5C17A7190}
+	EndGlobalSection
+EndGlobal
